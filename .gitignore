@@ -362,3 +362,4 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 /Google Calendar/Google Calendar.csproj
+/Google Calendar/Google Calendar.csproj
