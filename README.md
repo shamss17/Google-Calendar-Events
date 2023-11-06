@@ -4,14 +4,14 @@ Manage Calendar Events Using Google Calendar API
 1.Go to the Google Cloud Console (https://console.cloud.google.com/) and create a new project.
 2.Enable the Google Calendar API for your project.
 3. OAuth consent screen: 
-  1- write Application Name (Remember this name to replace it in the controller and helper files in the STEP 3)
-  2- Add scopes:(https://www.googleapis.com/auth/calendar , https://www.googleapis.com/auth/calendar/events) 
-  3-Add Test user with your google mail 
-  4-Save and back to DashBoard 
+  1. write Application Name (Remember this name to replace it in the controller and helper files in the STEP 3)
+  2. Add scopes:(https://www.googleapis.com/auth/calendar , https://www.googleapis.com/auth/calendar/events) 
+  3.Add Test user with your google mail 
+  4.Save and back to DashBoard 
 4.Create API credentials (OAuth 2.0 client ID) for your project
-  1- choose Application Type to be Web Application
-  2- Name the client ID
-  3- Add Authorized Redirect URIs (http://localhost/authorize/ , http://127.0.0.1/authorize/)
+  1. choose Application Type to be Web Application
+  2. Name the client ID
+  3. Add Authorized Redirect URIs (http://localhost/authorize/ , http://127.0.0.1/authorize/)
 5.Download and store the JSON file containing the credentials securely and rename it to credentials.
 
 # STEP 2: Set up the Project 
@@ -58,16 +58,16 @@ Manage Calendar Events Using Google Calendar API
  5. Use this example for Testing the GET/api/events to view an Event in your google calendar of the signed in and authorized mail:
     click on try it out 
     provide the details with
-    -ICalUID : primary (This to use the calendar ID of the signed in Test user)
-    -MaxResults : 10
-    -FromDate : 2023-10-10
-    -ToDate : 2023-12-30
-    -SearchQuery : meeting
+    *ICalUID : primary (This to use the calendar ID of the signed in Test user)
+    *MaxResults : 10
+    *FromDate : 2023-10-10
+    *ToDate : 2023-12-30
+    *SearchQuery : meeting
     click Execute
   6. Use this example for Testing the DELETE/api/events{eventId} to view an Event in your google calendar of the signed in and authorized mail:
     click on try it out 
     provide the eventId: You can get it from the id parameter of the GET method
-     - if this is an output for the GET :
+     *if this is an output for the GET :
      {
      "endTimeUnspecified": null,
     "eTag": "\"3397844665166000\"",
