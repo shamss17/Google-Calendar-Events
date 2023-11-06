@@ -1,18 +1,22 @@
 # Google-Calendar-Events
 Manage Calendar Events Using Google Calendar API
 # STEP 1: Obtain Google API Credentials
-1.Go to the Google Cloud Console (https://console.cloud.google.com/) and create a new project.
-2.Enable the Google Calendar API for your project.
-3. OAuth consent screen: 
-  1. write Application Name (Remember this name to replace it in the controller and helper files in the STEP 3)
-  2. Add scopes:(https://www.googleapis.com/auth/calendar , https://www.googleapis.com/auth/calendar/events) 
-  3.Add Test user with your google mail 
-  4.Save and back to DashBoard 
-4.Create API credentials (OAuth 2.0 client ID) for your project
-  1. choose Application Type to be Web Application
-  2. Name the client ID
-  3. Add Authorized Redirect URIs (http://localhost/authorize/ , http://127.0.0.1/authorize/)
-5.Download and store the JSON file containing the credentials securely and rename it to credentials.
+
+•	Go to the Google Cloud Console (https://console.cloud.google.com/) and create a new project. 
+•	Enable the Google Calendar API for your project. 
+•	OAuth consent screen:
+  o	write Application Name 
+  o	Add scopes: (https://www.googleapis.com/auth/calendar , https://www.googleapis.com/auth/calendar/events) 
+  o	Add Test user with your google mail.
+  o	Save and back to DashBoard 
+
+
+•	Create API credentials (OAuth 2.0 client ID) for your project
+  o	choose Application Type to be Web Application
+  o	Name the client ID
+  o	Add Authorized Redirect URIs (http://localhost/authorize/ , http://127.0.0.1/authorize/) 
+  o	Download and store the JSON file containing the credentials securely and rename it to credentials.
+
 
 # STEP 2: Set up the Project 
 // Recommended Visual Studio 2022
