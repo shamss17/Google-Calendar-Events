@@ -32,9 +32,10 @@ Manage Calendar Events Using Google Calendar API
 3. Make sure to change the ApplicationName in the eventsController.cs and the GoogleCalendarHelper.cs to your Application Name of the project you created the Google Developer Console.
 
 # STEP 4: Run the application
-1. Make sure to choose IIS to run the project.
-2. Run the project
-3. A web app will open in browser with Swagger UI
+1.Open Google Calendar Task solution
+2. Make sure to choose IIS to run the project.
+3. Run the project
+4. A web app will open in browser with Swagger UI
 
 # STEP 5: Redirected to Authorize
 1. Press on the create method and click Try Out
